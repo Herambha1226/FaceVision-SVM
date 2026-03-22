@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face Recognition</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        body {
+            height: 100vh;
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            text-align: center;
+            padding: 30px;
+            border-radius: 20px;
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+        }
+
+        h1 {
+            color: #f5deb3;
+            margin-bottom: 20px;
+            letter-spacing: 1px;
+        }
+
+        .video-frame {
+            border-radius: 15px;
+            overflow: hidden;
+            border: 3px solid rgba(255, 255, 255, 0.2);
+        }
+
+        img {
+            width: 640px;
+            max-width: 100%;
+            display: block;
+        }
+
+        .status {
+            margin-top: 15px;
+            color: #ccc;
+            font-size: 14px;
+        }
+
+        .status span {
+            color: #00ffcc;
+            font-weight: bold;
+        }
+
+        @media (max-width: 768px) {
+            img {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>🎥 Face Recognition System</h1>
+
+        <div class="video-frame">
+            <img src="/video">
+        </div>
+
+        <div class="status">
+            Status: <span>Live Streaming</span>
+        </div>
+    </div>
+
+</body>
+</html>

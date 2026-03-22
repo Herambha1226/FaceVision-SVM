@@ -1,0 +1,10 @@
+# DataSet images 
+.png
+
+# model 
+.pkl
+
+# vscode cache 
+.vscode
+
+.env
