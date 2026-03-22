@@ -7,4 +7,9 @@
 # vscode cache 
 .vscode
 
+# for using environtment variable
 .env
+
+# for trained dataset images of my family members
+# this is folder multiple images
+dataset 
