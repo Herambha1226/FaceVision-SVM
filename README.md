@@ -1,3 +1,6 @@
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![OpenCV](https://img.shields.io/badge/OpenCV-4.9-green)
+![Flask](https://img.shields.io/badge/Flask-Backend-black)
 
 # 👤 Face Recognition System Using SVM
 
