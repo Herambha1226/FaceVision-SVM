@@ -36,7 +36,7 @@ def generate_frame():
 
                     cv2.rectangle(frame,(left,top),(right,bottom),(245, 222, 179),6)
 
-                    cv2.putText(frame,str(prediction[0]),(left,top-10),cv2.FONT_HERSHEY_SIMPLEX,1,(242, 203, 145),4)
+                    cv2.putText(frame,str(prediction[0]),(left,top-10),cv2.FONT_HERSHEY_SIMPLEX,1,(145, 203,242),4)
 
 
             _, buffer = cv2.imencode('.jpg',frame)
