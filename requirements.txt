@@ -1,5 +1,7 @@
 flask
-opencv-python
 numpy
 scikit-learn
+face-recognition
+opencv-python-headless
 python-dotenv
+gunicorn
