@@ -13,3 +13,6 @@
 # for trained dataset images of my family members
 # this is folder multiple images
 dataset 
+
+# cache
+__pycache__
